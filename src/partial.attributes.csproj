@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net481;net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <LangVersion>Latest</LangVersion>
+    <RootNamespace>PartialSourceGen</RootNamespace>
+    <AssemblyName>PartialSourceGen.Attributes</AssemblyName>
+    <Authors>Johnny Kristian Moeberg Sørensen</Authors>
+    <Description>Only marker attributes used in PartialSourceGen library. Not needed unless you need to have InternalsVisibleTo enabled.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);NU1803</NoWarn>
+    <PackageProjectUrl>https://github.com/Newex/PartialSourceGen.Attributes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Newex/PartialSourceGen.Attributes</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Extra marker attributes</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
