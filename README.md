@@ -1,3 +1,5 @@
+![NuGet Version](https://img.shields.io/nuget/v/PartialSourceGen.Attributes)
+
 # What is this
 
 This is a library containing the marker attributes used in `PartialSourceGen` library. In the normal use case, this library is not necessary, so this should not be needed to install!
