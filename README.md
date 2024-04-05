@@ -33,3 +33,6 @@ The `PartialReference` comes in 2 variants, the newer dotnet 7.0, generic attrib
 
 # Versioning
 The versioning of this library does not follow the source generator versioning.
+
+# References
+The main `PartialSourceGen` project can be found here: https://github.com/Newex/PartialSourceGen
