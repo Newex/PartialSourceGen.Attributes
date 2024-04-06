@@ -67,3 +67,17 @@ internal sealed class PartialReferenceAttribute(Type original, Type partial, str
     private readonly Type partial = partial;
     private readonly string? name = name;
 }
+/// <summary>
+/// Excludes a property from being included in the generated partial entity
+/// </summary>
+[AttributeUsage(AttributeTargets.Property)]
+internal sealed class ExcludePartialAttribute : Attribute
+{
+}
+/// <summary>
+/// Force a property to be nullable
+/// </summary>
+[AttributeUsage(AttributeTargets.Property)]
+internal sealed class ForceNullAttribute : Attribute
+{
+}
