@@ -25,6 +25,12 @@ internal sealed class PartialAttribute : Attribute
     /// If not specified, the naming convection will be Partial[ClassName]
     /// </summary>
     public string? PartialClassName { get; set; }
+
+    /// <summary>
+    /// If true, any attribute on properties will be included in the partial
+    /// entity. Default false.
+    /// </summary>
+    public bool IncludeExtraAttributes { get; set; }
 }
 
 /// <summary>
